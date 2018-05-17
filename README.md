@@ -2,10 +2,13 @@
 
 # Installation Instructions
 1. Clone repo 
+```JavaScript
+git clone https://github.com/TmNguyen12/Truong_LandingPage_Shipt
 ```
-
+2. Navigate to the root directory of project
+```JavaScript
+cd Truong_LandingPage_Shipt
 ```
-2. Navigate to the root directory of the recently unzipped folder.
 3. Install dependencies while in the root directory
 ```JavaScript
 npm install 
