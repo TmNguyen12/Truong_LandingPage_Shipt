@@ -2,9 +2,9 @@
     display: grid;
     grid-area: h;
     margin-top: 10px;
-    background-image: 
+    /* background-image: 
       url("../../assets/images/target-logo2.png"), 
-      url("../../assets/images/target-logo2.png"); 
+      url("../../assets/images/target-logo2.png");  */
     background-repeat: 90px/90px repeat;
     background-position: 0 0, 47px 36px;
     background-size: 95px 75px;

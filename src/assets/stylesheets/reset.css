@@ -164,3 +164,7 @@ textarea {
   -moz-box-shadow: none;
   box-shadow: none;
 }
+
+input { 
+  cursor: pointer;
+}

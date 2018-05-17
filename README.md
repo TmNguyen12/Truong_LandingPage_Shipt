@@ -49,6 +49,8 @@ http://localhost:3000/
   - defaulted to Scandia Regular
   - Sometimes, the design documents listed Scandia as the font but displayed Helvetica
   - If the design documents requested Scandia-Bold but that choice didn't flow well with the overall appearance, I chose to use Scandia-Regular and add font-weight
+- Target Icon for the Hero image
+  - I left his out because I could only find an icon with a brighter red that made the contrasted too much. 
 - In a production environment, all of these choices would be discussed with the designer in a collaborative fashion 
 
 # Project Structure 
