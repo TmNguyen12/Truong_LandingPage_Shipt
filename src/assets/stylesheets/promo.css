@@ -1,0 +1,10 @@
+.promo {
+    grid-area: p;
+    display: grid;
+    background-color: #414042;
+    height: 31px;
+    color: white;
+    font-size: 11px;
+    align-content: center;
+    justify-content: center;
+  }

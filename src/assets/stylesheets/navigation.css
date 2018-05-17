@@ -1,0 +1,39 @@
+.navigation {
+    grid-area: n;
+    grid-template-rows: 1fr; 
+    grid-template-columns: 2fr;
+    height:75px;
+    display: grid; 
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navigation > input {
+    height: 48px;
+    width: 120px;
+    padding: 10px; 
+    transition: all .03s;
+    text-shadow:0px 5px 25px rgba(0, 0, 0, 0.5);
+    font-family: scandia-regular;   
+  }
+  
+  .navigation > input:hover {
+    background: #669933; 
+    text-shadow: none;
+  }
+  
+  .logo {
+    padding-left: 30px;
+  }
+  @media screen and (max-width: 1200px) {
+    .logo {
+      padding-left: 0px;
+    }
+  }
+  
+  .input-submit {
+    grid-column: 2 /3; 
+    letter-spacing: 1.5px;
+    font-size: 11px;
+    border-radius:3px;
+  }

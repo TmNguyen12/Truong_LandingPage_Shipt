@@ -1,0 +1,43 @@
+
+.App {
+  min-width:360px;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  grid-template-rows: repeat(auto-fit, minmax(31px,1fr));
+  text-align: center;
+  grid-template-areas: 
+  "p p p" 
+  "n n ." 
+  ". h ."
+  ". h ."  
+  ". h ."
+  ". h ."
+  ". h ."
+  ". r ."
+  ". i ."
+  ". i ."
+  ". i ."
+  ". i ."
+  "f f f";
+}
+
+@media screen and (max-width: 1200px) {
+  .App {
+    grid-template-columns: 30px 1fr 30px;
+    grid-template-rows: repeat(auto-fit, minmax(31px,1fr));
+    grid-template-areas: 
+    "p p p" 
+    ". n ." 
+    "h h h"
+    "h h h"  
+    "h h h"
+    "h h h"
+    "h h h"
+    "r r r"
+    "i i i"
+    "i i i"
+    "i i i"
+    "i i i"
+    "f f f";
+  }
+}
